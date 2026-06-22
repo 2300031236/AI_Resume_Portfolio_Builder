@@ -1,0 +1,14 @@
+package com.ai.resumebuilder.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CoverLetterRequest {
+    private String companyName;
+    private String jobRole;
+    private String jobDescription;
+}
