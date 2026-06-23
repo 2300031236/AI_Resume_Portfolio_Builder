@@ -14,3 +14,4 @@ Thumbs.db
 # Agent files
 .agents/
 .gemini/
+run_backend.ps1
